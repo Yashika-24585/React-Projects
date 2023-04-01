@@ -1,0 +1,12 @@
+<Route exact path="/Home" element = {<News pageSize = {5} category = "general"/>}/>
+<Route exact path="/Business" element = {<News pageSize = {5} category = "general"/>}/>
+<Route exact path="/Entertainment" element = {<News pageSize = {5} category = "general"/>}/>
+<Route exact path="/General" element = {<News pageSize = {5} category = "general"/>}/>
+<Route exact path="/Health" element = {<News pageSize = {5} category = "general"/>}/>
+<Route exact path="/Science" element = {<News pageSize = {5} category = "general"/>}/>
+<Route exact path="/Sports" element = {<News pageSize = {5} category = "general"/>}/>
+<Route exact path="/Technology" element = {<News pageSize = {5} category = "general"/>}/>
+
+<Route exact path="/about" element = {<News pageSize = {5} category = "general"/>}/>
+
+https://newsapi.org/v2/top-headlines?country=in&apiKey=ef732959db0c458f922b3a1c6af4f6ea
